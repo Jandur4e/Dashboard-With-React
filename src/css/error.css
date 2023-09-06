@@ -1,0 +1,36 @@
+#error-page {
+    position: relative;
+    background-image: url("../images/dashboard_background_img.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.error-p{
+    color: beige;
+}
+.error-moon-svg{
+    position: absolute;
+    bottom: 0px;
+}
+.object_moon{
+    position: absolute;
+    left: 310px;
+    bottom: 60px;
+    width: 450px;
+}
+.link-back{
+    text-align: center;
+    padding: 10px 30px;
+    color: steelblue;
+    text-decoration: none;
+}
+.link-back:hover{
+    background-color: rgb(58, 115, 161);
+    padding: 10px 30px; 
+    color: beige;
+    border-radius: 10px;
+}
+.error-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
